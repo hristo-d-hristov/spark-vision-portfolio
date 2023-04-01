@@ -32,7 +32,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: print.pdf
+    pdf: True
 
     languages:
       title: Languages

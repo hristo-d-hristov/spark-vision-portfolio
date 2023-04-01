@@ -41,3 +41,6 @@ There are 6 color schemes available:
 | Berry | Orange | Ceramic |
 |---------|---------|---------|
 | <img src="https://online-cv.webjeda.com/assets/images/berry.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/orange.jpg" width="300"/> | <img src="https://online-cv.webjeda.com/assets/images/ceramic.jpg" width="300"/> |
+
+## Printing
+I have used [the html2pdf library](https://github.com/eKoopmans/html2pdf.js)
