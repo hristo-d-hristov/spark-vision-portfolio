@@ -1,8 +1,8 @@
 {% assign gallery-image-files = site.static_files | where: "gallery-image", true %}
 {% assign gallery-video-files = site.static_files | where: "gallery-image", true | where: "extname", ".mp4" %}
-<img id="focussed-image" src="{{ gallery-image-files[0].path }}" class="img-thumbnail">
+<img id="focussed-image" src="{{ site.baseurl }}{{ gallery-image-files[0].path }}" class="img-thumbnail">
 <br><br>
 <video class="img-thumbnail" controls>
-  <source src=" {{ gallery-video-files[0].path }}" type="video/mp4">
+  <source src=" {{ site.baseurl }}{{ gallery-video-files[0].path }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>

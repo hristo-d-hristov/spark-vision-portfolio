@@ -5,7 +5,7 @@
     {% for image in gallery-image-files %}
       <div class="item gallery-image">
         {% if image.extname == '.jpg' or image.extname == '.jpeg' or image.extname == '.png' %}
-          <img src="{{ image.path }}" class="img-thumbnail">
+          <img src="{{ site.baseurl }}{{ image.path }}" class="img-thumbnail">
         {% endif %}
       </div>
     {% endfor %}
