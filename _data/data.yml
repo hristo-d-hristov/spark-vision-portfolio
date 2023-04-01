@@ -46,7 +46,7 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Building computer from scratch & CPU design
+        - item: Designing and building CPUs
           link:
 
         - item: Electronics
@@ -118,27 +118,26 @@ skills:
     title: Skills
 
     toolset:
+      - name: Excel
+        level: 100%
       - name: Blender & Cycles
         level: 90%
       - name: 3D Studio Max
-        level: 70%
-      - name: Photoshop
-        level: 70%
-      - name: GIMP
-        level: 90%
-      - name: Excel
-        level: 100%
+        level: 80%
+      - name: Photoshop & GIMP
+        level: 80%
+      
       - name: Python
         level: 90%
       - name: Java & C#
         level: 90%
       - name: C & C++
         level: 90%
-      - name: JavaScript + JQuery + AngularJS
+      - name: JavaScript + AngularJS
         level: 80%
       - name: Git & SVN
-        level: 70%
-      - name: Bash, Maxima, LaTeX, HTML, CSS, MySQL, Docker
+        level: 80%
+      - name: Bash, Maxima, LaTeX, HTML, CSS, MySQL
         level: 80%
 
 footer:
