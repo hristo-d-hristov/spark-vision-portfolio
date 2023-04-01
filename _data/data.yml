@@ -102,7 +102,12 @@ experiences:
         time: 2016 - 2017
         company: MusalaSoft
         details: |
-          I was a full-stack developer in MusalaSoft, programming in JavaScript, Java and PostgreSQL. I was sent by them as a contractor to VMware to work on their VSphere client. I also worked on an IBM project for a shipping map in the browser.
+          I was a full-stack developer in MusalaSoft, programming in JavaScript, Java and PostgreSQL. I was sent by them as a contractor to VMware to work on their VSphere client. I also worked on an IBM project for a shipping map.
+      - role: Student in Architecture
+        time: 2014
+        company: University of Architecture, Civil Engineering and Geodesy, Sofia
+        details: |
+          As an architectural student, I completed a 3D modeling course and got a certificate for my knowledge in 3D Studio Max. I gained experience with the whole process of 3D production - from concept to modeling, textures, lighting, UVW unwrapping, composition, rendering and post-production. I have improved my knowledge even further since then through all my future projects.
 projects:
 
 oss:
