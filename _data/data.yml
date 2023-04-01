@@ -92,17 +92,17 @@ experiences:
         time: 2019 - present
         company: Science and Maths High School, Gabrovo
         details: |
-          I teach my students how to use Excel, Blender, FreeCAD and GIMP. I also teach them how to program in JavaScript, Java, C#, C++ and SQL and how to build a computer from scratch, design its CPU and program it in their own Assembly language.
+          I teach students how to use Excel, Blender, FreeCAD, GIMP and programming in JavaScript, Java, C#, C++ and SQL. I also teach how to build a computer from scratch, design its CPU and program it in their own Assembly language.
       - role: Teacher in Mathematics and IT
         time: 2017 - 2019
         company: Primary School, Brestnitsa, Lovech Province
         details: |
-          I have been teaching Excel, programming with blocks and building cardboard model of the school as a maths application.
+          I professionally taught Excel, programming with blocks and mathematics.
       - role: Full-Stack Developer
         time: 2016 - 2017
         company: MusalaSoft
         details: |
-          I have been programming in JavaScript, Java and PostgreSQL. My employer was MusalaSoft who have sent me as a contractor to VMware to work on their VSphere client. I have also been working on an IBM project for a map in the browser.
+          I was a full-stack developer in MusalaSoft, programming in JavaScript, Java and PostgreSQL. I was sent by them as a contractor to VMware to work on their VSphere client. I also worked on an IBM project for a shipping map in the browser.
 projects:
 
 oss:
