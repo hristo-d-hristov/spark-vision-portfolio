@@ -15,7 +15,6 @@ jQuery(document).ready(function($) {
         });
         
         // for html2pdf
-        
 
         var jsPdfConfig = {
           orientation: 'p',
