@@ -6,11 +6,6 @@
       <div class="item gallery-image">
         {% if image.extname == '.jpg' or image.extname == '.jpeg' or image.extname == '.png' %}
           <img src="{{ image.path }}" class="img-thumbnail">
-        {% elsif image.extname == '.mp4' %}
-          <video class="img-thumbnail" controls>
-            <source src=" {{ image.path }}" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
         {% endif %}
       </div>
     {% endfor %}
