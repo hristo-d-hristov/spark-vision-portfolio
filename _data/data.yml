@@ -139,5 +139,7 @@ skills:
         level: 80%
       - name: Bash, Maxima, LaTeX, HTML, CSS, MySQL
         level: 80%
+      - name: MaxScript
+        level: 50%
 
 footer:
