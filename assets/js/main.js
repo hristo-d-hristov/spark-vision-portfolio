@@ -15,6 +15,17 @@ jQuery(document).ready(function($) {
         });
         
         // for html2pdf
+        
+
+        var jsPdfConfig = {
+          orientation: 'p',
+          unit: 'mm',
+          format: 'a4',
+          putOnlyUsedFonts: true,
+          floatPrecision: 16 // or "smart", default is 16
+        }
+
+
         $('#click-to-print').click(function() {
           var opt = {
             margin:       1,
@@ -22,7 +33,7 @@ jQuery(document).ready(function($) {
             image:        { type: 'jpeg', quality: 0.98 },
             html2canvas:  { scale: 1 },
             pagebreak:    { mode: 'avoid-all', before: '.page-break' }
-            jsPDF:        { unit: 'cm', format: 'A4', orientation: 'portrait' }
+            jsPDF:        jsPdfConfig
           };
           html2pdf(document.body);
         });
