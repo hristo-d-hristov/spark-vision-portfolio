@@ -46,14 +46,20 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Building computer from scratch (CPU design)
           link:
 
-        - item: Snowboarding
+        - item: Electronics
           link:
 
-        - item: Cooking
+        - item: Guitar
           link:
+          
+        - item: Photography
+          link:
+          
+        - item: GNU+Linux
+          link: https://www.gnu.org/gnu/linux-and-gnu.html
 
 career-profile:
     title: Career Profile
