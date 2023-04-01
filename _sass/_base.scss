@@ -285,11 +285,12 @@ p {
 #click-to-print {
   background-color: rgba(0, 0, 0, 0.2);
   border-color: rgba(0, 0, 0, 0.1);
+  color: rgba(255,255,255,0.6);
 }
 
 #click-to-print:hover {
-  border-color: rgba(0, 0, 0, 0.4);
-  color: rgba(255,255,255,0.6);
+  border-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
 }
 
 div.details > p {
