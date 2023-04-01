@@ -17,6 +17,6 @@ jQuery(document).ready(function($) {
         // for html2pdf
         $('#click-to-print').click(function() {
           html2pdf(document.body);
-        }
+        });
     });
 });
