@@ -12,6 +12,12 @@
       <a href="tel:{{ sidebar.phone }}">{{ sidebar.phone }}</a>
     </li>
     {% endif %}
+    
+    {% if sidebar.address %}
+    <li class="phone"><i class="fas fa-address"></i>
+      <a href="https://www.openstreetmap.org/search?query={{ sidebar.address }}">{{ sidebar.address }}</a>
+    </li>
+    {% endif %}
 
     {% if sidebar.citizenship %}
     <li class="phone"><i class="fas fa-passport"></i>
