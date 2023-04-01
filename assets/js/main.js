@@ -16,15 +16,14 @@ jQuery(document).ready(function($) {
         
         // for html2pdf
 
-        var jsPdfConfig = {
-          orientation: 'p',
-          unit: 'mm',
-          format: 'a4',
-          putOnlyUsedFonts: true,
-          floatPrecision: 16 // or "smart", default is 16
-        };
-
         $('#click-to-print').click(function() {
+          var jsPdfConfig = {
+            orientation: 'p',
+            unit: 'mm',
+            format: 'a4',
+            putOnlyUsedFonts: true,
+            floatPrecision: 16 // or "smart", default is 16
+          };
           var opt = {
             margin:       1,
             filename:     'Hristo-Hristov-portfolio.pdf',
@@ -33,7 +32,7 @@ jQuery(document).ready(function($) {
             pagebreak:    { mode: 'avoid-all', before: '.page-break' },
             jsPDF:        jsPdfConfig
           };
-          html2pdf(document.body);
+          html2pdf(document.body, opt);
         });
     });
 });
