@@ -86,13 +86,13 @@ education:
         time: 2010 - 2016
         details:
 experiences:
-    title: Experiences
+    title: Experience
     info:
       - role: Teacher in Computer Sciences and Mathematics
         time: 2019 - present
         company: Science and Maths High School, Gabrovo
         details: |
-          I teach students how to use Excel, Blender, FreeCAD, GIMP and programming in JavaScript, Java, C#, C++ and SQL. I also teach how to build a computer from scratch, design its CPU and program it in their own Assembly language.
+          I teach students how to use Excel, Blender, FreeCAD, GIMP and programming in JavaScript, Java, C#, C++ and SQL. I also teach how to build a computer from scratch, design its CPU and program it in their own Assembly language. I created and taught AR and VR technology and implemented it with JavaScript in the browser.
       - role: Teacher in Mathematics and IT
         time: 2017 - 2019
         company: Primary School, Brestnitsa, Lovech Province
@@ -107,7 +107,7 @@ experiences:
         time: 2010 - 2016
         company: University of Architecture, Civil Engineering and Geodesy, Sofia
         details: |
-          As an architectural student, I completed a 3D modeling course and got a certificate for my knowledge in 3D Studio Max. I gained experience with the whole process of 3D production - from concept to modeling, textures, lighting, UVW unwrapping, composition, rendering and post-production. I have improved my knowledge even further since then through all my future projects.
+          As an architectural student, I completed a 3D modeling course and got a certificate for my knowledge in 3D Studio Max. I gained experience with the whole process of 3D production - from concept to modeling, textures, lighting, UVW unwrapping, composition, rendering and post-production, and have improved my knowledge even further since then through all my future projects.
 projects:
 
 oss:
@@ -115,25 +115,30 @@ oss:
 publications:
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Skills
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Blender & Cycles
+        level: 90%
+      - name: 3D Studio Max
+        level: 70%
+      - name: Photoshop
+        level: 70%
+      - name: GIMP
+        level: 90%
+      - name: Excel
+        level: 100%
+      - name: Python
+        level: 90%
+      - name: Java & C#
+        level: 90%
+      - name: C & C++
+        level: 90%
+      - name: JavaScript + JQuery + AngularJS
+        level: 80%
+      - name: Git & SVN
+        level: 70%
+      - name: Bash, Maxima, LaTeX, HTML, CSS, MySQL, Docker
+        level: 80%
 
 footer:
