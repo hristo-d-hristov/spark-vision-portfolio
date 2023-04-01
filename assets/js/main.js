@@ -31,7 +31,7 @@ jQuery(document).ready(function($) {
             margin:       1,
             filename:     'Hristo-Hristov-portfolio.pdf',
             image:        { type: 'jpeg', quality: 0.98 },
-            html2canvas:  { scale: 1 },
+            html2canvas:  { scale: window.devicePixelRatio },
             pagebreak:    { mode: 'avoid-all', before: '.page-break' }
             jsPDF:        jsPdfConfig
           };
