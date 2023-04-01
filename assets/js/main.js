@@ -22,17 +22,23 @@ jQuery(document).ready(function($) {
             unit: 'mm',
             format: 'a4',
             putOnlyUsedFonts: true,
-            floatPrecision: 16 // or "smart", default is 16
+            floatPrecision: 'smart' // or "smart", default is 16
           };
           var opt = {
             margin:       1,
             filename:     'Hristo-Hristov-portfolio.pdf',
             image:        { type: 'jpeg', quality: 0.98 },
-            html2canvas:  { scale: window.devicePixelRatio },
+            html2canvas:  { scale: 0.5 },
             pagebreak:    { mode: 'avoid-all', before: '.page-break' },
+            width:        '2000px',
+            windowWidth:  '2000px',
             jsPDF:        jsPdfConfig
           };
           html2pdf(document.body, opt);
+        });
+        
+        $('.gallery-image > img').click(function() {
+          $('#focussed-image').attr("src", this.src);
         });
     });
 });
