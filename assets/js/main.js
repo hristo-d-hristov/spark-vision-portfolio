@@ -15,7 +15,8 @@ jQuery(document).ready(function($) {
         });
         
         // for html2pdf
-        var element = document.getElementById('element-to-print');
-        html2pdf(element);
+        $('#click-to-print').click(function() {
+          html2pdf(document.body);
+        }
     });
 });
