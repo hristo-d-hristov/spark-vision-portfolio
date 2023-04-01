@@ -4,6 +4,12 @@ This is my portfolio as an applicant for Spark Vision.
 [Here](https://hristo-d-hristov.github.io/spark-vision-portfolio/) is it`s live version.
 I have forked it from [this jekyll template](https://github.com/sharu725/online-cv).
 
+# To convert it to a PDF file
+1. Open [web2pdfconvert](https://www.web2pdfconvert.com/)
+2. Paste the [link to the printable resume](https://hristo-d-hristov.github.io/spark-vision-portfolio/print.html)
+
+Note: This website provides only 5 prints per day. To avoid this limitation, use it through Tor.
+
 ## To preview/edit locally with docker
 
 ```sh
