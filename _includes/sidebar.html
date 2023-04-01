@@ -12,7 +12,9 @@
     {% endif %}
 
     {% if sidebar.tagline %}
-    <h3 class="tagline">{{ sidebar.tagline }}</h3>
+        {% for t in sidebar.tagline %}
+            <h3 class="tagline">{{ t }}</h3>
+        {% endfor %}
     {% endif %}
 
   </div><!--//profile-container-->
