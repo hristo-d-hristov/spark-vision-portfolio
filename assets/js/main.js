@@ -23,8 +23,7 @@ jQuery(document).ready(function($) {
           format: 'a4',
           putOnlyUsedFonts: true,
           floatPrecision: 16 // or "smart", default is 16
-        }
-
+        };
 
         $('#click-to-print').click(function() {
           var opt = {
@@ -32,7 +31,7 @@ jQuery(document).ready(function($) {
             filename:     'Hristo-Hristov-portfolio.pdf',
             image:        { type: 'jpeg', quality: 0.98 },
             html2canvas:  { scale: window.devicePixelRatio },
-            pagebreak:    { mode: 'avoid-all', before: '.page-break' }
+            pagebreak:    { mode: 'avoid-all', before: '.page-break' },
             jsPDF:        jsPdfConfig
           };
           html2pdf(document.body);
