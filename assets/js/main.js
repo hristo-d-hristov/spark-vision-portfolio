@@ -16,6 +16,14 @@ jQuery(document).ready(function($) {
         
         // for html2pdf
         $('#click-to-print').click(function() {
+          var opt = {
+            margin:       1,
+            filename:     'Hristo-Hristov-portfolio.pdf',
+            image:        { type: 'jpeg', quality: 0.98 },
+            html2canvas:  { scale: 1 },
+            pagebreak:    { mode: 'avoid-all', before: '.page-break' }
+            jsPDF:        { unit: 'cm', format: 'A4', orientation: 'portrait' }
+          };
           html2pdf(document.body);
         });
     });
