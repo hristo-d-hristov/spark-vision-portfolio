@@ -64,7 +64,7 @@ sidebar:
 career-profile:
     title: Summary
     summary: |
-      My passions are computers, 3D modelling, programming, painting, playing music and teaching. As an architect I have created over 20 projects with 3D visualizations - from furnitures to small vacation houses and large urban plans. As a teacher I have tought my students how to use spreadsheets applications (including Excel), how to build 3D models with Blender and FreeCAD and how to edit images with GIMP. I prefer libre applications, because I can read their source code and learn from it, but I have been using mostly proprietary ones previously - 3DStudio Max instead of Blender, Photoshop instead of GIMP and Excel instead of LibreOffice Calc. I enjoy automating my tasks on a computer whenever possible, writing Python scripts for 3DStudio Max, FreeCAD and Blender.
+      As an architect I have created over 20 projects with 3D visualizations - from furnitures to small vacation houses and large urban plans. As a teacher I have tought my students how to use spreadsheets applications (including Excel), how to build 3D models with Blender and FreeCAD and how to edit images with GIMP. I prefer libre applications, because I can read their source code, learn from it and improve it, but I have been using mostly proprietary ones previously - 3DStudio Max instead of Blender, Photoshop instead of GIMP and Excel instead of LibreOffice Calc. I enjoy automating my tasks on a computer whenever possible, writing Python scripts for 3DStudio Max, FreeCAD and Blender.
 education:
     title: Education
     info:
