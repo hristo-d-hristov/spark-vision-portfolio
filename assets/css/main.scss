@@ -6,7 +6,3 @@
 
 @import "skins/{{ site.theme_skin | default: 'blue' }}"; // skin
 @import "default"; // main partials
-
-@media print {
-  .page-break {page-break-after: always;}
-}
