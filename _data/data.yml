@@ -88,43 +88,21 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Teacher in Computer Sciences and Mathematics
+        time: 2019 - present
+        company: Science and Maths High School, Gabrovo
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          I teach my students how to use Excel, Blender, FreeCAD and GIMP. I also teach them how to program in JavaScript, Java, C#, C++ and SQL and how to build a computer from scratch, design its CPU and program it in their own Assembly language.
+      - role: Teacher in Mathematics and IT
+        time: 2017 - 2019
+        company: Primary School, Brestnitsa, Lovech Province
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          I have been teaching Excel, programming with blocks and building cardboard model of the school as a maths application.
+      - role: Full-Stack Developer
+        time: 2016 - 2017
+        company: MusalaSoft
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          I have been programming in JavaScript, Java and PostgreSQL. My employer was MusalaSoft who have sent me as a contractor to VMware to work on their VSphere client. I have also been working on an IBM project for a map in the browser.
 projects:
 
 oss:
